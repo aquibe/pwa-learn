@@ -1,7 +1,7 @@
 {
     "name": "Esia Application",
     "short_name": "EsiaApp",
-    "start_url": ".",
+    "start_url": "index.html",
     "display": "standalone",
     "backgroud_color": "#fff",
     "description": "this is application of Esia Study",

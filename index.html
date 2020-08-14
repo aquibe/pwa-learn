@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">    
-        
+        <script src="index.js"></script>
         <link rel="manifest" href="manifest.webmanifest">    
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -27,13 +27,13 @@
           }
         </style>
     </head>
-    <body>
+    <body">
      
       <div class="container">
 
         <div class="col-xs-12  col-md-4 col-md-offset-4 ">
           <div class="dragzone">
-            <a href="page.html" class="aa"><img src="Icon.png" width="60%"  id="dg"></a>
+            <a href="page.html" class="aa"><img src="Icon.png" width="60%" ondragstart="dragStart(event)" id="dg"></a>
           </div>
         </div>
       </div>
