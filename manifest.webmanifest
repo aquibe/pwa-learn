@@ -1,0 +1,16 @@
+{
+    "name": "Esia Application",
+    "short_name": "EsiaApp",
+    "start_url": ".",
+    "display": "standalone",
+    "backgroud_color": "#fff",
+    "description": "this is application of Esia Study",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512*512",
+            "type": "image/png"
+        }
+      
+    ]
+}
